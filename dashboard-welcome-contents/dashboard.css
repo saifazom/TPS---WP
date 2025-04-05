@@ -1,0 +1,167 @@
+@font-face {
+	font-family: 'Manrope Bold';
+	src: url('./webfonts/Manrope-Bold.eot');
+	src: url('./webfonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./webfonts/Manrope-Bold.woff2') format('woff2'),
+		url('./webfonts/Manrope-Bold.woff') format('woff'),
+		url('./webfonts/Manrope-Bold.ttf') format('truetype'),
+		url('./webfonts/Manrope-Bold.svg#Manrope-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('./webfonts/Gilroy-Bold.eot');
+    src: url('./webfonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./webfonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./webfonts/Gilroy-Bold.woff') format('woff'),
+        url('./webfonts/Gilroy-Bold.ttf') format('truetype'),
+        url('./webfonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.welcome-panel-content{
+	display: none !important;
+}
+.welcome-panel-content > h2{
+	display: none;
+}
+
+#welcome-panel {
+	background: #003841 !important;
+	padding: 75px 50px 65px;
+	display: block !important;
+}
+#custom-welcome-screen{
+	display: block !important;
+}
+
+@media (max-width: 1300px) {
+	#welcome-panel {
+		padding: 60px 40px 50px;
+	}
+}
+
+#dashboard-widgets-wrap{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#custom-welcome-screen .custom-welcome-header h2{
+	font-family: "Gilroy Bold", sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 48px;
+    line-height: 1;
+	margin-top: 48px;
+	text-transform: none;
+}
+
+.welcome-panel-close {display:none;}
+.custom-welcome-header h1{
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 6px;
+	font-family: "Gilroy Bold", sans-serif;
+}
+
+.custom-welcome-header img{
+	display: block;
+	margin: 0 auto;
+	max-width: 280px;
+	max-height: 55px;
+}
+
+.task-button-panel ul.task-buttons{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.task-button-panel ul.task-buttons li{
+	margin-bottom: 13px;
+	padding: 0 5px;
+	width: calc(20% - 20px);
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 1300px) {
+	.task-button-panel ul.task-buttons li{
+		width: calc(20% - 10px);
+	}
+}
+
+.task-button-panel ul.task-buttons li.task-button a:link,
+.task-button-panel ul.task-buttons li.task-button a:visited{
+	line-height: 28px;
+    padding: 16px;
+	display: block;
+	text-decoration: none;
+	font-family: 'Manrope Bold', sans-serif;
+	color: #fff;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	background: #1ec08c;
+	border-radius: 50px;
+	font-size: 16px;
+	outline: none;
+	border: 2px solid #1ec08c;
+	transition: all .5s;
+	width: 100%;
+}
+
+.task-button-panel ul.task-buttons li.task-button a:hover,
+.task-button-panel ul.task-buttons li.task-button a:active,
+.task-button-panel ul.task-buttons li.task-button a:focus{
+	background: #fff;
+	color: #1ec08c;
+	text-decoration: none;
+	outline: none;
+	border-color: #1ec08c;
+}
+.custom-welcome-body{
+	max-width: 1110px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.custom-welcome-body .task-label{
+	margin: 0;
+	color: #f1f1f1;
+	font-weight: bold;
+	font-size: 29px;
+	padding-right: 45px;
+}
+
+#custom-welcome-screen hr{
+    height: 0;
+    background: none;
+    border-top: 1px solid #002f37;
+    border-bottom: 1px solid #002f37;
+    margin: 50px 0 60px;
+}
+
+#custom-welcome-screen .custom-welcome-footer {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#custom-welcome-screen .custom-welcome-footer a{
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+	text-decoration: none;
+	font-family: 'Manrope Bold', sans-serif;
+}
+
+
